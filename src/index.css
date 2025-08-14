@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.forms {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.preview {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+input,
+select,
+button {
+  display: block;
+  margin-bottom: 0.5rem;
+  padding: 0.4rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
